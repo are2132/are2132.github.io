@@ -8,13 +8,15 @@ output:
 ---
 
 # This is Jeff's awesome website
+You can learn more about me [here](about.html)
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
 
 # Let's add some links
-I often use [this](google.com) to do data science.
+I often use [this](https://www.google.com) to do **data science.**
 
 
-# Let's add images
+# Let's add an image
 ![](Banana.jpg)
+
