@@ -4,6 +4,7 @@ author: "Alison Elgass"
 date: "10/22/2019"
 output: html_document
 ---
+To view on Google, go to are2132.github.io
 
 ```{r}
 library(tidyverse)
@@ -69,6 +70,7 @@ Andddd a bar chart!
 nyc_airbnb %>% 
   count(neighbourhood) %>% 
   mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
-  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
+  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, 
+          type = "bar")
 ```
 
